@@ -22,7 +22,8 @@ namespace WebApiModulo10.Contexts
             var autores = new List<Autor>()
             {
                 new Autor(){Id = 1, Nombre = "Felipe Gavilán", FechaNacimiento = new DateTime(1900, 2, 5) },
-                new Autor(){Id = 2, Nombre = "Claudia Rodríguez", FechaNacimiento = new DateTime(1905, 4, 15) }
+                new Autor(){Id = 2, Nombre = "Claudia Rodríguez", FechaNacimiento = new DateTime(1905, 4, 15) },
+                new Autor(){Id = 3, Nombre = "Alejandro Lopera", FechaNacimiento = new DateTime(1985, 4, 15) }
             };
 
             modelBuilder.Entity<Autor>().HasData(autores);
